@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Proto Grotesk';
+  src: local('☺️'),
+      url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.woff2') format('woff2'),
+      url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.woff') format('woff'),
+      url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proto Grotesk';
+  src: local('☺️'),
+      url('https://static.istories.media/public/fonts/Proto Grotesk-Bold-Web.woff2') format('woff2'),
+      url('https://static.istories.media/public/fonts/Proto Grotesk-Bold-Web.woff') format('woff'),
+      url('https://static.istories.media/public/fonts/Proto Grotesk-Bold-Web.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+svg {
+    background-color: #F5F3F2;
+}
+.regionName {
+  fill: white;
+  font: normal 1.1vw "Proto Grotesk";
+}
+
+.buttonGrid {
+  width: 20%;
+  height: 30px;
+  background-color:#262626;
+  display: inline-block;
+  color: white;
+  font: normal 1.2vw "Proto Grotesk";
+}
+
+.buttonGeo{
+  width: 20%;
+  height: 30px;
+  background-color:#262626;
+  display: inline-block;
+  color: white;
+  font: normal 1.2vw "Proto Grotesk";
+}
+
+.label{
+  font: normal 1.2vw "Proto Grotesk";
+}
+
+.legendTitle{
+  font: normal 1.4vw "Proto Grotesk";
+}
+
+.tooltip {
+  position: absolute;
+  font: normal 1.3vw "Proto Grotesk";
+  background-color:#262626;
+  color: white;
+  border-radius: 5px;
+  pointer-events: none;
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding:  0.5% 0.5%;
+}
+.caption{
+  font: normal 1vw "Proto Grotesk";
+  fill: #635F5D;
+}
+.source{
+  font: normal 0.6vw "Proto Grotesk";
+  fill: #635F5D;
+}
